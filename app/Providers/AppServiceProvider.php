@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\URL;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -14,6 +15,9 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         //
+        // if ($exception->getMessage() == "Call to a member function getDomain() on null") {
+        //     return redirect('/login');
+        // }
     }
 
     /**
@@ -23,6 +27,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+         URL::forceScheme('https');
     }
 }

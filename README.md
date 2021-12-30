@@ -15,7 +15,8 @@ A full-featured Laravel package for aiding in Shopify App development. The basic
 1. Mention your SHOPIFY_API_KEY, SHOPIFY_API_SECRET at .env file.
 2. You'll able to mention SHOPIFY_API_SCOPES "config\shopify-app.php"
 3. If you want layout file - php artisan vendor:publish
-4. You can use tailwind css or bootstrap as per your need.
+4. Migrations - php artisan migrate
+5. You can use tailwind css or bootstrap as per your need.
 
 
 

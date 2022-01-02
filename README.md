@@ -10,7 +10,7 @@ Wishly is accessible, powerful, and provides tools, robust applications. -->
 A full-featured Laravel package for aiding in Shopify App development. The basic Laravel Shopify Boilerplate working with Laravel 7 and up.
 
 
-## Installation Wishly
+## Installation Laravel Shopify
 
 1. Mention your SHOPIFY_API_KEY, SHOPIFY_API_SECRET at .env file.
 2. You'll able to mention SHOPIFY_API_SCOPES "config\shopify-app.php"

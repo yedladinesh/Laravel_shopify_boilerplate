@@ -13,17 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard');
-})->middleware(['verify.shopify'])->name('home');
+// Route::get('/', function () {
+//     return view('dashboard');
+// })->middleware(['verify.shopify'])->name('home');
 
 Route::group(['middleware' => ['verify.shopify']], function (){
-    Route::get('/', function () {
-        return view('dashboard');
-    });
-
-    Route::get('products', function () {
-        return view('products');
-    });
-
+    Route::get('/', 'AgeController@dashboard');
+  
 });

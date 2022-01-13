@@ -5,12 +5,18 @@ Wishly is a Shopifyu application where you can wishlist your products.
 
 Wishly is accessible, powerful, and provides tools, robust applications. -->
 
-## About Laravel Shopify Boilerplate
+## About Age verification Shopify App
 
-A full-featured Laravel package for aiding in Shopify App development. The basic Laravel Shopify Boilerplate working with Laravel 7 and up.
+A full-featured Shopify App. Where user can surf website if he's above 18+ 
 
 
-## Installation Laravel Shopify
+## Tech stack
+-  Laravel
+-  React js
+-  Inertia js
+-  Polaris 
+
+<!-- ## Installation Laravel Shopify
 
 1. Mention your SHOPIFY_API_KEY, SHOPIFY_API_SECRET at .env file.
 2. You'll able to mention SHOPIFY_API_SCOPES "config\shopify-app.php"
@@ -20,5 +26,5 @@ A full-featured Laravel package for aiding in Shopify App development. The basic
 
 
 
-I hope this boilerplate will useful you..! Cheers.
+I hope this boilerplate will useful you..! Cheers. -->
 
